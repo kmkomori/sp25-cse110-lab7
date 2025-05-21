@@ -1,7 +1,7 @@
 # CSE 110 Lab Week 7 - Unit & E2E Testing 
 ## Members: Roy Lee and Kumiko Komori from Group 28
 
-*1) Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.*
+1) *Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.*
 
    **1. Within a Github action that runs whenever code is pushed**
 
@@ -13,11 +13,11 @@
 
     The other options are not ideal as having to manually run tests leads to extra work/friction for developers, and may also be forgotten on occasion due to the manual nature of the tests. Running tests after development is completed is a bad idea because tackling all issues at once will take extra time and effort, as fixing some issues may create new issues elsewhere. By incrementally testing and coding, we can ensure issues are dealt with from their root.
 
-*2) Would you use an end to end test to check if a function is returning the correct output? (yes/no)*
+2) *Would you use an end to end test to check if a function is returning the correct output? (yes/no)*
 
     **No**, because end to end testing is used to simulate the entire user interaction and ensure all the different pieces of the program work well together, not just a single function in the program. It would be more accurate to say we are testing the function within the context of the entire program being run for a specific user interaction.
 
-*3) What is the difference between navigation and snapshot mode?*
+3) *What is the difference between navigation and snapshot mode?*
 
     Navigation mode analyzes a page right after it loads, and provides an overall performance metric, but can't analyze interactions or changes in content.
 
@@ -25,7 +25,7 @@
 
     Navigation is best used to evaluate the page upon its initial load, while snapshot should be used if you want to analyze the performance of a specific page after some number of user interactions or changes (although it cannot analyze the actual JS performance or changes to the DOM tree as they occur).
 
-*4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.*
+4) *Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.*
 
     The biggest issue with the CSE 110 shop site is the speed index. 
     
