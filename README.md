@@ -25,4 +25,10 @@
 
 4) Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
 
-    The biggest issue with the CSE 110 shop site is the speed index. One way we can improve it is by using the optimal/proper sizing for certain images (some of the files are larger than necessary, and can be compressed to improve performance). A second thing we can implement are preconnections and preloads to ensure the browser gets some hints or information to get a head start in loading large images or setting up connections to third party domains. Another quick fix we can implement is adding the <meta name="viewport"> tag with width and initial-scale, as this can prevents a delay to user input.
+    The biggest issue with the CSE 110 shop site is the speed index. 
+    
+    One way we can improve it is by using the optimal/proper sizing for certain images (some of the files are larger than necessary, and can be compressed to improve performance). 
+    
+    A second thing we can implement are preconnections and preloads to ensure the browser gets some hints or information to get a head start in loading large images or setting up connections to third party domains. 
+    
+    Another quick fix we can implement is adding the <meta name="viewport"> tag with width and initial-scale, as this can prevents a delay to user input.
